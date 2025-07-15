@@ -26,5 +26,5 @@ def send_engagement_notification(user):
     print(f'Notification sent to {user}.')
 
 
-my_user = User('Rolf', {'clicks': 61, 'hits': 100})
+my_user = User('Rolf', {'click': 61, 'hits': 100})
 email_engaged_user(my_user)
